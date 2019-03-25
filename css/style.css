@@ -105,6 +105,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   font-weight: bold;
 }
+#gtco-logo::before{
+  content:"";
+  display: inline-block;
+  background: url(../images/logo-1.png) no-repeat;;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
 .gtco-nav #gtco-logo em {
   color: #fbbe30;
   font-weight: 100;
@@ -496,7 +504,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-join-us,
 #gtco-mining-strategy,
 #gtco-open-platform,
-#gtco-reputation {
+#gtco-reputation
+#gtco-contact {
   padding: 7em 0;
   clear: both;
 }
