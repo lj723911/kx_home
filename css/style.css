@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-logo::before{
   content:"";
   display: inline-block;
-  background: url(../images/logo-1.png) no-repeat;;
+  background: url(../images/logo_1.png) no-repeat;;
   width: 40px;
   height: 40px;
   vertical-align: middle;
